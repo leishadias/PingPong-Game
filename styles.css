@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+
+/*rods*/
+.rod {
+  height: 25px;
+  width: 175px;
+  border-radius: 40px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: auto;
+}
+
+#rod1 {
+  background-color: blue;
+  top: 0;
+}
+
+#rod2 {
+  background-color: purple;
+  bottom: 0;
+}
+
+/*ball*/
+#ball {
+  background-color: red;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid black;
+}
+
+#message {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  border-radius: 15px;
+  background-color: coral;
+  padding: 2rem;
+  color: white;
+}
+
+.hidden {
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  visibility: hidden;
+}
